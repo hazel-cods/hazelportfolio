@@ -31,6 +31,8 @@ body {
     gap: 50px;
     padding: 10px;
     margin-left: 14%;
+  border: 0px solid red;
+
 
     
     .navbar  li {
@@ -125,32 +127,29 @@ body {
   box-shadow: rgba(133, 116, 116, 0.2) 0px 12px 28px 0px, rgba(83, 79, 79, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
    */
 
-  h1{
-    font-size: 50px;
-  }
+         h1{
+            font-size: 50px;
+          }
 
-  h4 {
-    color: rgb(9, 71, 90);
-  }
+         h4 {
+            color: rgb(9, 71, 90);
+          }
 
-  button{
-    background: 
-    rgb(9, 71, 90)
-    ;
-
-    width: 40%;
-    border: none;
-    padding: 10px;
-    margin-top: 5%;
-    border-radius: 20px;
+         button{
+            background: rgb(9, 71, 90);
+            width: 40%;
+            border: none;
+            padding: 10px;
+            margin-top: 5%;
+            border-radius: 20px;
 
 
-  }
-  a{
-    color: rgb(231, 236, 238);
-    text-decoration: none;
+          }
+        a{
+            color: rgb(231, 236, 238);
+            text-decoration: none;
 
-  }
+          }
     
 
 }
@@ -163,10 +162,10 @@ body {
   bottom: 0;
   border: 0px solid red;
 
-  .wavepic{
-    top: -50%;
+     .wavepic{
+        top: -50%;
 
-  }
+      }
 
 }
 
@@ -185,25 +184,43 @@ body {
   height: 300px;
 }
 
+
+
+
 .about_box{
   width: 50%;
   border: 1px solid palevioletred;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
 
-  h2{
-    text-decoration: none;
-    color: wheat;
-    margin: 2%;
-    border: 1px solid green;
+      .textbox{
+         border: 1px solid lightblue;
+         padding: 10px;
+         width: 100%;
+         display: flex;
 
-  }
+  
 
+      }
 
-    
+      h2{
+        text-decoration: none;
+        color: wheat;
+        margin: 2%;
+        border: 1px solid green;
+
+      }
   
 
 
 }
+
+
+
+
+
+
 .about_content{
   width: 50%;
   border: 1px solid green;
