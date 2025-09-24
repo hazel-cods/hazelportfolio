@@ -199,6 +199,8 @@ body {
     display: flex;
     flex-direction: column;
     margin: 7% 6%;
+    margin-left: 15%;
+
 
 
     h1{
@@ -212,11 +214,16 @@ body {
 }
 
 
-
-.cards{
+.cards_box{
   width: 100%;
-  border: 1px solid yellow;
+  border: 1px solid red;
   height: 40vh;
+  display: flex;
+  padding: 10px;
+}
+.cards{
+  border: 1px solid yellow;
+
 
 
 }
